@@ -1,0 +1,8 @@
+{
+  "hello": "hello world",
+  "study_now": "Let's study now",
+  "my_name": "My name is {{user.name}}",
+  "my_age": "My age is {{user.age}}",
+  "intlDateTime": "{{val, datetime}}",
+  "my_city": "My city is <strong>Presidente Prudente</strong>"
+}

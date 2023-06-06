@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100vw;
+  padding: 50px 100px;
+
+  span,
+  strong {
+    display: inline-block;
+
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+
+    color: #fffefd;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    width: 50%;
+
+    &:first-of-type {
+      gap: 24px;
+
+      img {
+        width: 143px;
+        height: 64px;
+      }
+
+      > div {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &:last-of-type {
+      align-items: flex-end;
+    }
+  }
+}
